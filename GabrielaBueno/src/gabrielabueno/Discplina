@@ -1,0 +1,61 @@
+package com.mycompany.aaaaaaaa;
+
+import java.util.Date;
+
+public class Disciplina {
+
+    private int codigo;
+    private String disciplina;
+    private int cargahoraria;
+    private String ementa;
+    private String objetivos;
+    private String relacionados;
+
+    public void setCodigo(int _codigo) {
+        codigo = _codigo;
+    }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public void setDisciplina(String _disciplina) {
+        disciplina = _disciplina;
+    }
+
+    public String getDisciplina() {
+        return disciplina;
+    }
+
+    public void setCargahoraria(int _cargahoraria) {
+        cargahoraria = _cargahoraria;
+    }
+
+    public int getCargahoraria() {
+        return cargahoraria;
+    }
+
+    public void setEmenta(String _ementa) {
+        ementa = _ementa;
+    }
+
+    public String getEmenta() {
+        return ementa;
+    }
+
+    public void setObjetivos(String _objetivos) {
+        objetivos = _objetivos;
+    }
+
+    public String getObjetivos() {
+        return objetivos;
+    }
+
+    public void setRelacionados(String _relacionados) {
+        relacionados = _relacionados;
+    }
+
+    public String getRelacionados() {
+        return relacionados;
+    }
+}
