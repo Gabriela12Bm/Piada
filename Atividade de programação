@@ -1,0 +1,114 @@
+package com.mycompany.aaaaaaaa;
+
+import java.util.Date;
+
+public class Estudante {
+
+    private String nivelEnsino;
+    private int cpf;
+    private String nome;
+    private Date dataNascimento;
+    private char genero;
+    private String email;
+    private int telefone;
+    private String matricula;
+    private int codigo;
+    private String semestreIngresso;
+    private String situacao;
+    private String anoIngresso;
+ 
+
+    public void setNivelEnsino(String _nivelEnsino) {
+        nivelEnsino = _nivelEnsino;
+    }
+
+    public String getNivelEnsino() {
+        return nivelEnsino;
+    }
+
+    public void setCpf(int _cpf) {
+        cpf = _cpf;
+    }
+
+    public int getCpf() {
+        return cpf;
+    }
+
+    public void setNome(String _nome) {
+        nome = _nome;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setDataNascimento(Date _dataNascimento) {
+        dataNascimento = _dataNascimento;
+    }
+
+    public Date getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setGenero(char _genero) {
+        genero = _genero;
+    }
+
+    public char getGenero() {
+        return genero;
+    }
+
+    public void setEmail(String _email) {
+        email = _email;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setTelefone(int _telefone) {
+        telefone = _telefone;
+    }
+
+    public int getTelefone() {
+        return telefone;
+    }
+
+    public void setSemestreIngresso(String _semestreIngresso) {
+        semestreIngresso = _semestreIngresso;
+    }
+
+    public String getSemestreIngresso() {
+        return semestreIngresso;
+    }
+
+    public void setSituacao(String _situacao) {
+        situacao = _situacao;
+    }
+
+    public String getSituacao() {
+        return situacao;
+    }
+
+    public void setAnoIngresso(String _anoIngresso) {
+        anoIngresso = _anoIngresso;
+    }
+
+    public String getAnoIngresso() {
+        return anoIngresso;
+    }
+
+public void setCodigo(int _codigo){
+codigo = 10000 + (Math.random() * 90000);
+}
+
+    public String getMatricula() {
+
+       return anodeingresso + semestreingressado + codigo;
+
+    }
+
+ 
+    }
+}
+
